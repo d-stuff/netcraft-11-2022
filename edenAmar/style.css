@@ -1,0 +1,29 @@
+body{
+    margin-top: 8em;
+}
+p{  
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+}
+.background{
+    background-image: url('./img/background1.png');     
+    background-size:cover;
+ }
+ .edenImg{
+justify-items: center;
+   width: 15em;
+   border-radius: 50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .linkedin{text-decoration: none;}
+
+ @media  (max-width: 40em) {
+    p{font-size: 1em;}
+    .edenImg{width: 6.25em;}
+ }
