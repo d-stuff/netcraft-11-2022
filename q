@@ -1,0 +1,83 @@
+[33mcommit e97c535333597e7c59f8e5db7954dc1a59138faf[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: David Meir-Levy <david@davidlevy.co.il>
+Date:   Mon Jan 23 20:30:37 2023 +0200
+
+    added gitignore folders
+
+[33mcommit cefd100ad4676cc912b699804fbb28b50eb20162[m
+Author: David Meir-Levy <david@davidlevy.co.il>
+Date:   Mon Jan 23 20:29:05 2023 +0200
+
+    remove .DS_Store
+
+[33mcommit 865a011b0a3e8b251e669de5922f01f2dddcb326[m
+Author: David Meir-Levy <david@davidlevy.co.il>
+Date:   Mon Jan 23 20:27:41 2023 +0200
+
+    move noy cv to dedicated folder
+
+[33mcommit d377f2b1ae3fe0db3184ad77c253a0f1290974d1[m
+Author: David Meir-Levy <davidmeirlevy@gmail.com>
+Date:   Mon Jan 23 20:15:33 2023 +0200
+
+    Noy Moyal cv file (#8)
+    
+    Co-authored-by: noy moyal <noymoyal888@gmail.com>
+
+[33mcommit fcbc45459292a8db994d2d4627f9c08fcef52060[m
+Author: Lee Pozmantir Confino <78810688+leeluush@users.noreply.github.com>
+Date:   Mon Jan 23 20:07:05 2023 +0200
+
+    CV Lee Pozmantir Confino (#1)
+
+[33mcommit c80d11599c2b02bfdad17e2c0fb035c53b88ffdf[m
+Author: urikoffman <73611324+urikoffman@users.noreply.github.com>
+Date:   Mon Jan 23 20:06:36 2023 +0200
+
+    cv-urikoffman (#2)
+    
+    * added my fake CV
+    
+    * fake cv added by uri
+
+[33mcommit a0a5379632e98f2d278d5772ae0b02e00b6fdb2e[m
+Author: Eden Amar <115637168+eden-amar@users.noreply.github.com>
+Date:   Mon Jan 23 20:05:40 2023 +0200
+
+    cv-eden-amar (#3)
+
+[33mcommit fb456086c382f08e63e89996be75b28021897cf4[m
+Author: Dvir Nagar <122823150+Dvir-Nagar@users.noreply.github.com>
+Date:   Mon Jan 23 20:05:24 2023 +0200
+
+    Dvir CV (#5)
+
+[33mcommit 0d351c980e24e0657393bf9d257b15db3227de2a[m
+Author: OlgaElfond <118614795+OlgaElfond@users.noreply.github.com>
+Date:   Mon Jan 23 20:04:54 2023 +0200
+
+    my cv olga elfond (#6)
+    
+    * my cv olga elfond
+    
+    * Delete index
+    
+    Co-authored-by: David Meir-Levy <davidmeirlevy@gmail.com>
+
+[33mcommit 5a5e20608be9287b6296abaf2670f603255edd23[m
+Author: Shaked Akam Peretz <41114529+ShakedAkamPeretz@users.noreply.github.com>
+Date:   Mon Jan 23 20:04:33 2023 +0200
+
+    new folder - Shaked (#7)
+
+[33mcommit a4bd0d3f6d8b14b57612fc99a729b78f84e41b5b[m
+Author: David Meir-Levy <davidmeirlevy@gmail.com>
+Date:   Mon Jan 23 18:55:54 2023 +0200
+
+    david levy cv file (#4)
+
+[33mcommit 53a2f634c3ceec78a76197fddec8dda0717eb2ec[m
+Author: David Meir-Levy <davidmeirlevy@gmail.com>
+Date:   Mon Jan 23 17:10:32 2023 +0200
+
+    Initial commit
