@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    
+}
+
+a {
+    color: inherit;
+}
+
+.header {
+  
+   display: grid;
+   grid-template-columns: 25% 25% 50%;
+   align-items: center;
+   background-color:#3896D3;
+   color: white;
+       
+}
+
+.summary{
+    font-size: 0.75em;
+    padding: 3em;
+    border-left:  1px dotted white;
+}
+
+
+.user-image {
+    border-radius: 100%;
+    max-width: 60%;
+    margin-left: 2em;
+   
+    
+
+
+}
+
+.user-name-and-title {
+    padding: 2em;
+}
+
+.columns {
+    display: flex;
+    align-content: space-between;
+
+    
+}
+
+
+
+ 
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+   
+}
+
+.contact-information-list li{
+    padding-left: 2em;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 4em;
+    padding-right: 5em;
+    padding-top: 1em;
+
+}
+
+.contact-information {
+    padding-left: 3em;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+ 
+}
+
+.icon {
+    position: absolute;
+    top: 0.8em;
+    left: 1em;
+
+
+}
+
+.working-experience {
+    font-size: 14px;
+}
