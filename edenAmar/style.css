@@ -1,0 +1,63 @@
+body{
+    margin-top: 2em;
+}
+p ,span{  
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+}
+.background{
+    background-image: url('./img/background1.png');     
+    background-size:cover;
+ }
+ .edenImg{
+justify-items: center;
+   width: 10em;
+   border-radius: 50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .linkedin{text-decoration: none;}
+
+  svg path{fill: white;}
+  ul li svg path{fill: black;}
+  ul li{
+   margin-top: 2em;
+   text-align: center;
+   background-color: white;
+   width: 13.125em;
+   height: 13.125em;
+   border-radius: 1.5em;
+   list-style: none;
+  }
+
+  ul li:hover{
+    opacity: 60%; 
+  }
+  .flex-page{display: flex; gap: 2em; justify-content: center;}
+  .contact-text{color: black; font-size: 1em;}
+  
+  .social-icon{align-items: center; padding-top: 2em;} 
+
+  @media  (max-width: 40em) {
+    p{font-size: 1em;}
+    .edenImg{width: 6.25em;}
+    ul li{width: 8.5em;height: 8.5em;}
+    .contact-text{font-size: 0.7em;}
+    .social-icon svg {width: 4em; height: 4em;}
+ }
+ 
+ @media (max-width: 68em){
+    ul li{width: 10em;height: 10em;}
+    .contact-text{font-size: 0.8em;}
+    .social-icon svg {width: 5em; height: 5em;}
+ }
+
+ @media (max-width: 46em){
+    ul {flex-direction: column;}
+    .flex-page{ gap: 0; align-items: center;}
+ }
