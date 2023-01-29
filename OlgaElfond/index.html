@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
   </head>
   <style>
     * {
@@ -12,23 +15,41 @@
       padding: 0;
     }
     body {
-        
-        text-align: center;
+      text-align: center;
       background: linear-gradient(#e6cbcb, #babddd);
-      
+      height: 100vh;
+      font-family: 'Caveat', 'cursive';
+      font-weight: 600;
+      font-size: 2rem;
     }
     img {
-      border-radius: 80%;
+      border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
     }
   </style>
   <body>
     <h1>hello</h1>
     <h2>my name is olga</h2>
-    <img alt="olga" src="https://picsum.photos/id/237/200/300" />
+    <img alt="olga" src="./foto/foto.jpg" />
     <p>
-      my linkedin page <a
-        href="https://www.linkedin.com/in/olga-elfond-5a388842/">linkedin</a>
+      my LinkedIn page <a
+        href="https://www.linkedin.com/in/olga-elfond-5a388842/">LinkedIn</a>
       </a>
     </p>
+    <div class="gallery">
+      <H1>my family</H1>
+      <span class="pic">
+        <img src="https://picsum.photos/200/300?random=1">
+      </span>
+      <span class="pic">
+        <img src="https://picsum.photos/200/300?random=1">
+      </span>
+      <span class="pic">
+        <img src="https://picsum.photos/200/300?random=1">
+      </span>
+    </div>
+    <a href="../index.html">back to main page</a>
   </body>
 </html>
