@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            font-family: cursive;
+            
+        }
+
+        html {
+            height: 100vh;
+
+        }
+
+        body {
+            background: linear-gradient(65deg, white 20%, lavender);
+
+        }
+
+        header {
+            margin-top: 15.125em;
+            display: flex;
+            justify-content: center;
+            gap: 2em;
+            padding: 2.5em;
+            
+        }
+
+        img {
+            border-radius: 50%;
+            width: 300px;
+        }
+
+        .linkd {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1em;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover{
+            color: blueviolet;
+            text-decoration: underline;
+        }
+        
+
+        @media (max-width: 500px) {
+            header {
+                padding: 2.5em;
+                flex-direction: column;
+                min-width: unset;
+            }
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <section class="color">
+        <header>
+            <div class="pic">
+                <img src="https://media.licdn.com/dms/image/C4D03AQEAcbtlxUHYAA/profile-displayphoto-shrink_800_800/0/1650119668545?e=1680134400&v=beta&t=m-m0Qp0jmc3wF4pKgiyMi8YxD5f7pQYr_uRc2umIzdQ" alt="me">
+            </div>
+            <div class="linkd">
+                <h1>Hi, I'm Alex Bis</h1>
+                <p>Visit my <a href="https://www.linkedin.com/in/kilsw2k0/">Linkedin</a> page!</p>
+            </div>
+        </header>
+    </section>
+</body>
+</html>
