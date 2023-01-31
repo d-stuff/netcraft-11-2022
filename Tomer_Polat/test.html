@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Levy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(rgb(205, 228, 165) 40%, #333);
+        }
+
+        a {
+            color: rgb(48, 98, 207);
+        }
+
+        header {
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header aside {
+            padding: 20px;
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .thumbnail img {
+            width: 100%;
+            border-radius: 50%;
+        }
+
+        @media (max-width: 512px) {
+            header {
+                padding: 10px;
+                flex-direction: column;
+            }
+
+            header aside {
+                padding: 30px 0;
+                min-width: unset;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="thumbnail">
+            <img alt="David Levy"
+                src="https://media.licdn.com/dms/image/C5103AQHs0nhHpnJRDQ/profile-displayphoto-shrink_800_800/0/1516537829026?e=1680134400&v=beta&t=o4xiKJqQncxdlJuY9Y783Anq7zpKKIbapo3ROWwd-p0">
+        </div>
+        <aside>
+            <h1>Hi, I'm David Levy</h1>
+            <p>Go to my <a href="https://www.linkedin.com/in/david-meir-levy-6038b351/">LinkedIn profile</a>.</p>
+            </div>
+    </header>
+</body>
+
+</html>
